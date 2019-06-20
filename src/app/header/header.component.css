@@ -1,0 +1,16 @@
+nav{
+  display:flex;
+  background-color: powderblue;
+  align-items: center;
+}
+
+nav div{
+  padding:10px 10px;
+  }
+a{
+  color:black;
+  text-decoration:none;
+}
+a:hover{
+  color:blueviolet;
+}

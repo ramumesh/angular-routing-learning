@@ -1,0 +1,9 @@
+<app-header></app-header>
+<router-outlet></router-outlet>
+<ul  >
+  <li *ngFor="let item of messageService.messages">
+  {{item}}
+  </li>
+</ul>
+
+<app-test>Hello</app-test>
