@@ -2,3 +2,10 @@
 .sub-title{
   color:red;
 }
+.container{
+  display:flex;
+  height:100px;
+  align-items: center;
+  justify-content:center;
+  border:solid 1px powderblue;
+}
