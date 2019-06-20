@@ -5,4 +5,12 @@ app-test{
   font-size:60px;
   color:black;
 }
+.message-container{
+margin-top:5px;
+ padding:10px; 
+ height:200px;
+ width:100px;
+ border:solid 1px rgb(26, 10, 10);
+ overflow:auto;
+}
 
