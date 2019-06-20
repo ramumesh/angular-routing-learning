@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
+import { HttpClientModule} from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
@@ -12,11 +13,12 @@ import { AppRoutingModule } from './app-routing.module';
 import { StoreComponent } from './store/store.component';
 import { MessageService } from './message.service';
 import { TestDirective } from './test.directive';
+import { DataService } from './data.service';
 
 @NgModule({
-  imports:      [ BrowserModule, FormsModule , AppRoutingModule],
+  imports:      [ BrowserModule, FormsModule ,HttpClientModule, AppRoutingModule],
   declarations: [ AppComponent, HelloComponent, HeaderComponent, HomeComponent, MessagesComponent, OthersComponent, StoreComponent, TestDirective ],
   bootstrap:    [ AppComponent ],
-  providers: [MessageService]
+  providers: [MessageService, DataService]
 })
 export class AppModule { }

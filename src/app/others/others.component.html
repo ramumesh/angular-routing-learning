@@ -1,3 +1,5 @@
 <div class="container">
-  Others component
+ <div *ngFor= "let item of dataService.othersData">
+   id: {{item.id}} Name: {{item.name}}
   </div>
+</div>
